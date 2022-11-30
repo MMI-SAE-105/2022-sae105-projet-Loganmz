@@ -1,0 +1,22 @@
+main {
+    font-family: var();
+    font-size: var();
+    line-height: 1.6;
+    background-color: black
+}
+footer{
+    background-color: black;
+    
+}
+
+h1, h2 {
+    font-family: var()
+}
+img {
+    max-width: 100%;
+}
+
+.Santorini{
+    background-color: rgba(255, 255, 255, 0.652);
+}
+
