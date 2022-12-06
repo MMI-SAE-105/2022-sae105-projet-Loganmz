@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=*, initial-scale=1.0">
+    <title>Move On</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body class="contact">
+    <header class="header">
+        <a href="/">
+            <img src="assets/img/mvo 1.svg" alt="logo">
+        </a>
+        <h3>FR/ENG</h3> 
+        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header_menuBtn">
+            <img src="assets/img/Vector (1).svg" alt="menu">
+          </button>
+          <nav id="mainNav" x-show="menuIsOpen"
+          class="menu"
+          >
+            <ul style="list-style-type:none;">
+              <li><a href="How_do_i_say_goodbye.html">How do i say goodbye</a></li>
+              <li><a href="Santorini.html">l'ile de Santorini</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a class="menu__link" href="team.html">Team</a></li>
+            </ul>
+            <ul style="list-style-type:none;">
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+            <ul style="list-style-type:none;">
+              <li><a href="terms-conditions.html">Terms & conditions</a></li>
+              <li><a href="privacy-policy.httml">Privacy Policy</a></li>
+            </ul>
+          </nav>
+        
+        
+    </header>
+
+    <main>
+        
+
+</body>

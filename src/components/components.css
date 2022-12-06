@@ -23,7 +23,7 @@ header {
     margin-top: -140px;
     }
     
-    .div3 { grid-area: 1 / 1 / 11 / 6; }
+    .div3 { grid-area: 1 / 1 / 11 / 6;}
     .div4 { grid-area: 3 / 2 / 8 / 5;
         display: flex;
         justify-content: center;
@@ -182,9 +182,7 @@ margin-top: 50px; }
     z-index: 10;
     }
     .noscroll,
-    .noscroll body {
-      overflow: hidden;
-    }
+
 button{
     background-color: transparent;
     border-color: transparent;
