@@ -21,9 +21,15 @@ header {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     margin-top: -140px;
+    
     }
     
-    .div3 { grid-area: 1 / 1 / 11 / 6;}
+    .div3 { grid-area: 1 / 1 / 11 / 6;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;}
     .div4 { grid-area: 3 / 2 / 8 / 5;
         display: flex;
         justify-content: center;
@@ -166,8 +172,9 @@ margin-top: 50px; }
     background: rgb(0, 0, 0);
     display: flex;
     color: white;
-    font-size: large;
-    justify-content: center;
+    font-size: x-large²;
+    justify-content: flex-start;
+    flex-direction: column;
     
     
 
@@ -187,11 +194,9 @@ button{
     background-color: transparent;
     border-color: transparent;
 }
-nav a:link {
+
+a {
     color: #ffffff;
     text-decoration: none;
-    
-    
-    
-    }
+}
 
