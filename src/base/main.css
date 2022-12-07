@@ -2,7 +2,7 @@ main {
     font-family: var();
     font-size: var();
     line-height: 1.6;
-    background-color: black
+    background-color: rgb(0, 0, 0)
 }
 footer{
     background-color: black;
