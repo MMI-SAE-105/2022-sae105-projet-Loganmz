@@ -77,15 +77,16 @@ h5{
     font-weight: lighter;
 }
 h6{
-    font-size: large;
+    font-size: x-large;
     color: rgb(255, 255, 255); 
     font-family: 'Electrolize', sans-serif;
+    padding-top: 40px;
 
 }
 
 
 h7{
-    font-size:small;
+    font-size: small;
     font-family: 'Montserrat', sans-serif;
     
     
@@ -151,7 +152,7 @@ margin-top: 50px; }
     justify-content: center; }
     .div12 { grid-area: 5 / 1 / 7 / 5;
     margin-top: -5px; }
-    .div13 { grid-area: 5 / 2 / 7 / 4;
+    .div13 { grid-area: 4 / 2 / 7 / 4;
     padding-left: 40px; }
 
 .imageintertexte{
