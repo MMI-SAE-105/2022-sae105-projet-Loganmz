@@ -198,6 +198,16 @@ a {
     text-decoration: none;
 }
 
+.parallax {
+    height: 20rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  .parallax1 {
+    background-image: url("../../assets/img/Vector.svg");
+  }
 .drapeau{
     padding-top: 10px;
 }
