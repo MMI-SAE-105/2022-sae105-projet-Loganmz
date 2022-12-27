@@ -33,7 +33,7 @@ header {
     .div5 { grid-area: 9 / 3 / 10 / 4;
         display: flex;
         justify-content: center;
-        margin-top: 2.5rem;
+        
      }
 
 .parent {
@@ -209,6 +209,6 @@ a {
     background-image: url("../../assets/img/Vector.svg");
   }
 .drapeau{
-    padding-top: 10px;
+    padding-top: 0.1125rem;
 }
   
