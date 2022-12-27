@@ -198,16 +198,6 @@ a {
     text-decoration: none;
 }
 
-.parallax {
-    height: 50.75rem;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .parallax1 {
-    background-image: url("../../assets/img/Madère\ 4k\ YTB_3.gif");
-  }
 .drapeau{
     padding-top: 10px;
 }
