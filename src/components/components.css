@@ -44,15 +44,22 @@ header {
     grid-row-gap: 0rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
-    padding-bottom: 0.625rem;
+    padding-bottom: 0rem;
     padding-top: 20px;
-
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: max-content;
+    
     }
     
-    .div1 { grid-area: 1 / 1 / 4 / 4; }
+    .div1 { grid-area: 1 / 1 / 4 / 4; 
+        border-style: solid;
+        border-width: 1.5px;
+        border-color: #ffffff;}
     .div2 { grid-area: 3 / 1 / 4 / 4; 
     background-color: rgba(0, 0, 0, 0.6 );
     color: white;
+    padding-left: 10px;
     
     }
 h3{
@@ -134,7 +141,8 @@ margin-top: 3.125rem;}
     margin-bottom: -6.25rem;
 margin-top: 3.125rem; }
     .div10 { grid-area: 4 / 8 / 5 / 11; 
-    margin-left: 16.875rem;}
+    margin-left: 16.875rem;
+    position: relative  ;}
 
 .imagetexte {
     display: grid;
@@ -207,16 +215,7 @@ a {
     text-decoration: none;
 }
 
-.parallax {
-    height: 20rem;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
-  }
-  .parallax1 {
-    background-image: url("../../assets/img/Vector.svg");
-  }
+
 .drapeau{
     padding-top: 0.60rem;
     height: 1.75rem;
