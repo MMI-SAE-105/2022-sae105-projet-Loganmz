@@ -1,41 +1,38 @@
 <!DOCTYPE html>
-<html lang="en" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Move on</title>
+    <meta name="viewport" content="width=*, initial-scale=1.0">
+    <title>Move On</title>
     <script defer src="https://unpkg.com/alpinejs"></script>
     <link rel="stylesheet" href="src/style.css">
 </head>
-<body class="Santorini">
+<body class="">
     <header class="header">
-        <a href="/">
+        <a class="logo" href="/">
             <img src="assets/img/mvo 1.svg" alt="logo">
         </a>
-        <h3>FR/ENG</h3> 
-        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header_menuBtn">
+        <a href="">
+            <img class="drapeau" src="assets/img/france 1.svg" alt="">
+        </a>
+        <button class="nav-toogle-bar" aria-controls="mainNav" onclick="document.documentElement.classList.toggle('menu-open')">
             <img src="assets/img/Vector (1).svg" alt="menu">
           </button>
           <nav id="mainNav" x-show="menuIsOpen"
-
           class="menu"
           >
-          <ul style="list-style-type:none;">
-            <li><a href="How_do_i_say_goodbye.html">How do i say goodbye</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a class="menu__link" href="team.html">Team</a></li>
-          </ul>
-          <ul style="list-style-type:none;">
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-          </ul>
-          <ul style="list-style-type:none;">
-            <li><a href="terms-conditions.html">Terms & conditions</a></li>
-            <li><a href="privacy-policy.httml">Privacy Policy</a></li>
-          </ul>
+            <ul class="menu__link" style="list-style-type:none;">
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="How_do_i_say_goodbye.html">How do i say goodbye</a></li>
+              <li><a href="Santorini.html">l'ile de Santorini</a></li>
+              <li><a href="">À la recherche du bohneur</a></li>
+              <li><a href="dessinerledesign.html">Dessiner le design</a></li>
+              <li><a href="">mes espoirs</a></li>
+              <li><a href="">mes regrets</a></li>
+              <li><a href="">Autres projets</a></li>
+              <li><a href="">À propos</a></li>
+            </ul>
           </nav>
         
         
@@ -81,8 +78,13 @@
             <p>Car Santorin est grandiose et offre un spectacle naturel unique.</p>
         </div>
   
-    
-    
+        <div class="titrecontent">
+            <h8>Lieux Similaires</h8>
+        </div>
+        
+        <div class="frise">
+            <img src="assets/img/frise.webp" alt="">
+        </div>
     
    
 

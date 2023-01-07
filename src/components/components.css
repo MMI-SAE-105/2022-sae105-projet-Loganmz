@@ -219,6 +219,8 @@ a {
 .drapeau{
     padding-top: 0.60rem;
     height: 1.75rem;
+    z-index: 2;
+    position: relative;
 }
 .nav-toogle-bar{
     z-index: 2;
@@ -232,4 +234,14 @@ a {
 }
 .scroll{
     transition: all 5s;
+}
+.titrecontent{
+    color: rgb(0, 0, 0);
+    margin-top: 0.625rem;
+    margin-left: 5.25rem;
+    font-family: 'Hind', sans-serif;
+    padding-right: 1.25rem;
+    padding-bottom: 1.25rem;
+    font-size: xx-large;
+    font-weight: 700;
 }
