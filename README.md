@@ -1,7 +1,7 @@
 - NOM : Martinez
 - PRÉNOM : Logan
-- URL du site :
-- URL FIGMA :
+- URL du site : https://move-on.logan-martinez.fr/
+- URL FIGMA : https://www.figma.com/file/bmiRQuTLSGZCDLo39DnekO/Untitled?node-id=0%3A1&t=BKkLscBsIroOhSGd-1
 
 # Structure de départ pour le projet individuel.
 
