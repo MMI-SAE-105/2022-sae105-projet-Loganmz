@@ -431,4 +431,12 @@ form {
     background-color: #ffffff;
     box-shadow: rgba(255, 255, 255, 0.25) 0 8px 15px;
   }
+
+  video{
+    max-width: 90%;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+  }
   
