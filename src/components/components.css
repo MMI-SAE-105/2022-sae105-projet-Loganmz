@@ -12,6 +12,7 @@ header {
     margin-top: 3.5rem;
     margin-left: 0.3125rem;
     margin-right: 0.3125rem;
+    z-index: 10;
     
 }
 .titre {
